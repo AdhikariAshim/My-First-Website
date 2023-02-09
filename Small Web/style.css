@@ -1,0 +1,149 @@
+body{
+    background-image:url("/Images/background.jpg");
+}
+
+.logo{
+    font-size: 200%;
+    color: rgb(236, 114, 0);
+    font-weight: bolder;
+}
+
+nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center; 
+    }
+
+    .nav-links a{
+        color: #000000;
+        font-weight: bolder;
+    }
+
+    .nav-links{
+        flex: 1;
+        text-align: right;
+    }
+
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+
+    .nav-links ul li a{
+        color: #000000;
+        text-decoration: none;
+        font-size:  13px; 
+    }
+
+    .nav-links ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #f44336;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+
+    .nav-links ul li:hover::after{
+        width: 100%;
+    }
+
+    .text-box{
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+
+    .text-box h1{
+        font-size: 62px;
+        color: aqua;
+        border-style: solid;
+        border-color: rgb(48, 21, 16);
+        background-color: tomato;
+        border-width: 4px;
+        border-radius: 25px;    
+    }
+
+.text-box p{
+        margin: 10px 0 40px;
+        font-size: 21px;
+        color: rgb(255, 238, 0);
+        border-style: solid;
+        border-color: skyblue;
+      background-color: rgb(109, 110, 110);
+      border-width: 4px;
+      border-radius: 25px;
+    }
+
+    body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
